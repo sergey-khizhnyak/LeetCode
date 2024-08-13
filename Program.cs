@@ -1,4 +1,4 @@
 ﻿using LeetCode;
 using TestApp;
 
-Console.WriteLine(RomanToInteger.RomanToInt("MCDL"));
+Console.WriteLine(LongestCommonPrefix.FindLongestCommonPrefix(["flower", "flow", "flight"]));

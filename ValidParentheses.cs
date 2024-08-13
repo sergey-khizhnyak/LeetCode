@@ -41,5 +41,5 @@ namespace LeetCode
 
             return stack.Count == 0;
         }
-    }
+	}
 }
