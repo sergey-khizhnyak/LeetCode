@@ -10,20 +10,20 @@ namespace LeetCode
 	{
 		public static int RemoveDuplicatesFunc(int[] nums)
 		{
-			int insertIndex = 1;
-			for (int i = 1; i < nums.Length; i++)
+			int writeIndex = 1;
+			for (int readerIndex = 1; readerIndex < nums.Length; readerIndex++)
 			{
 				// We skip to next index if we see a duplicate element
-				if (nums[i - 1] != nums[i])
+				if (nums[readerIndex - 1] != nums[readerIndex])
 				{
 					/* Storing the unique element at insertIndex index and
 					   incrementing the insertIndex by 1 */
-					nums[insertIndex] = nums[i];
-					insertIndex++;
+					nums[writeIndex] = nums[readerIndex];
+					writeIndex++;
 				}
 			}
 
-			return insertIndex;
+			return writeIndex;
 		}
 	}
 }

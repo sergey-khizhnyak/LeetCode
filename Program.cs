@@ -1,4 +1,6 @@
 ﻿using LeetCode;
 using TestApp;
 
-Console.WriteLine(RemoveDuplicates.RemoveDuplicatesFunc([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]));
+Console.WriteLine(LengthOfLastWord.LengthOfLastWordFunc("luffy is still joyboy"));
+
+// Console.WriteLine(RemoveDuplicates.RemoveDuplicatesFunc([1, 1, 2]));
