@@ -1,4 +1,5 @@
 ﻿using LeetCode;
+using LeetCode.Curated_LeetCode_Problems;
 using TestApp;
 
-Console.WriteLine(IsomorphicStrings.IsIsomorphic("egg", "add"));
+MoveZeroes.MoveZeroesFunc([0,1,0,3,12]);
