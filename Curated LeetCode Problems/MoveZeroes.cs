@@ -14,6 +14,8 @@ public class MoveZeroes
     //     }
     // }
     
+    
+    // Two pointers algorithm
     public static void MoveZeroesFunc(int[] nums) {
         int lastNonZeroFoundAt = 0; // This pointer tracks where to place next non-zero element.
     
@@ -32,3 +34,6 @@ public class MoveZeroes
         }
     }
 }
+
+//Time Complexity: O(n), where n is the number of elements in the array, as we perform a single pass through the array.
+//Space Complexity: O(1), since we use only constant extra space (only a few additional variables).

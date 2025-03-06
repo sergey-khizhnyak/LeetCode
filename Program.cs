@@ -1,5 +1,7 @@
 ﻿using LeetCode;
 using LeetCode.Curated_LeetCode_Problems;
+using LeetCode.Patterns_for_Coding_Questions.Warmup;
 using TestApp;
+using MajorityElement = LeetCode.Curated_LeetCode_Problems.MajorityElement;
 
-MoveZeroes.MoveZeroesFunc([0,1,0,3,12]);
+Console.WriteLine(Pangram.CheckIfPangramFunc("This is not a pangram"));
